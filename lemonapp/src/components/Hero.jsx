@@ -10,13 +10,11 @@ const Hero = () => {
           <h1>Little Lemon</h1>
           <h2>Chicago</h2>
           <p>
-            Little Lemon Restaurant is a cozy and inviting eatery that
-            specializes in fresh and flavorful Mediterranean cuisine. The menu
-            features a variety of dishes made with locally sourced ingredients
-            and traditional recipes. Whether you're in the mood for a light and
-            healthy salad, a savory and satisfying pasta dish, or a delicious
-            and hearty entree, Little Lemon has something to please every
-            palate.
+            We are a family-owned Mediterranean restaurant, focused on
+            traditional recipes served with a modern twist. We offer a variety
+            of dishes made with the freshest ingredients and cooked to
+            perfection. Our menu features a selection of appetizers, salads,
+            entrees, and desserts.
           </p>
           <button>
             <Link to="booking">Reserve a table</Link>

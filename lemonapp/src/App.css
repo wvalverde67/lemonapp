@@ -281,9 +281,11 @@ header > div > ul > li > a {
   font-weight: 500;
 }
 
-#booktable {
-  /* background-color: var(--color-primary); */
+/* #booktable {
+  background-color: var(--color-primary);
 }
+ */
+
 form {
   font-family: 'Karla', sans-serif;
   margin: auto;

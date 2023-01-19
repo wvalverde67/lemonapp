@@ -17,12 +17,7 @@ const About = () => {
             Our menu features a variety of Mediterranean dishes made with the
             freshest ingredients and cooked to perfection. We also offer a
             selection of beverages.Our passion for good food and friendly
-            service is what sets us apart. We take pride in creating a warm and
-            welcoming atmosphere where you can enjoy a great meal with your
-            loved ones. Our staff is dedicated to making your dining experience
-            a memorable one. We are located in the heart of Chicago, making
-            us the perfect spot for a casual dinner or a special occasion. We
-            also offer catering services for events of all sizes.
+            service is what sets us apart. We look forward to serving you!
             Thank you for choosing Little Lemon Restaurant and we hope to see you soon!
           </p>
         </div>

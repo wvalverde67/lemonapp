@@ -12,14 +12,8 @@ import Footer from "./components/Footer";
 import Booking from "./components/Booking";
 import ConfirmedBooking from "./components/ConfirmedBooking";
 
+
 function App() {
-
-  const [availableTimes, setAvailableTimes] = React.useState([]);
-  const submitForm = (formData) => {
-    console.log(formData);
-  };
-  
-
   return (
     <>
       <div className="App">
@@ -30,17 +24,9 @@ function App() {
               <Route exact path="/" element={<Home />} />
               <Route path="/About" element={<About />} />
               <Route path="/Contact" element={<Contact />} />
-              <Route
-                path="/booking"
-                element={
-                  <Booking
-                    availableTimes={availableTimes}
-                    setAvailableTimes={setAvailableTimes}
-                    submitForm={submitForm}
-                  />
-                }
-              />
-              <Route path="/confirmedbooking" element={<ConfirmedBooking />} />
+              <Route path="/Booking" element={<Booking />} />
+              <Route path="/Reservations" element={<Booking />} />
+              <Route path="/Confirmedbooking" element={<ConfirmedBooking />} />
               <Route component={NotFound} />
             </Routes>
           </div>
