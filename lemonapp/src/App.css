@@ -1,3 +1,4 @@
+/* general CSS rules */
 :root {
   --color-primary: #495E57;
   --color-secondary: #F4CE14;
@@ -8,6 +9,35 @@
   width: 70vw;
 }
 
+/* NotFound Landing page rules */
+
+.notfound {
+  background-color: var(--color-primary);
+  padding: 2vh 0;
+  position: relative;
+}
+
+.notfound button {
+  padding: 2vh 2vw;
+  font-size: 20px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 16px;
+  background-color: var(--color-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.notfound button > a {
+  text-decoration: none;
+  color: black;
+}
+.notfound button:hover {
+  transform: scale(105%);
+}
+
+
+/* header CSS rules */
 header > div {
   display: flex;
   justify-content: space-between;
@@ -30,6 +60,7 @@ header > div > ul > li > a {
   font-size: 18px;
 }
 
+/* hero CSS rules */
 #hero {
   background-color: var(--color-primary);
   padding: 2vh 0;
@@ -92,6 +123,7 @@ header > div > ul > li > a {
   transform: scale(105%);
 }
 
+/* highlights CSS rules */
 #highlights {
   padding: 14vh 0 6vh 0;
 }
@@ -119,6 +151,8 @@ header > div > ul > li > a {
 #highlights .content button:hover {
   transform: scale(105%);
 }
+
+/* food CSS rules */
 .foodcards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -171,6 +205,7 @@ header > div > ul > li > a {
 }
 
 
+/* testimonials CSS rules */
 #testimonials {
   padding: 1vh 0;
   background-color: #FBFBFB;
@@ -214,6 +249,7 @@ header > div > ul > li > a {
 }
 
 
+/* about CSS rules */
 #about {
   padding: 6vh 0 16vh 0;
   background-color: var(--color-primary);
@@ -258,6 +294,7 @@ header > div > ul > li > a {
 }
 
 
+/* footer CSS rules */
 #footer .container {
   display: flex;
   justify-content: space-between;
@@ -281,11 +318,7 @@ header > div > ul > li > a {
   font-weight: 500;
 }
 
-/* #booktable {
-  background-color: var(--color-primary);
-}
- */
-
+/* Booking Form CSS rules */
 form {
   font-family: 'Karla', sans-serif;
   margin: auto;
@@ -342,11 +375,13 @@ input[type=submit] {
   font-size: 20px;
   transition: all 0.2s ease;
 }
-input[type=submit]:hover {
-  font-size: 22px;
+
+input[type="submit"]:hover {
+  background-color: var(--color-primary);
+  color: white;
 }
 
-
+/* Confirmed booking landing page */
 .confirmedbooking {
   width: 100%;
   height: 60vh;

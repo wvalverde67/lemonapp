@@ -27,7 +27,7 @@ function App() {
               <Route path="/Booking" element={<Booking />} />
               <Route path="/Reservations" element={<Booking />} />
               <Route path="/Confirmedbooking" element={<ConfirmedBooking />} />
-              <Route component={NotFound} />
+              <Route path= '*' element={<NotFound />} />
             </Routes>
           </div>
           <Footer />

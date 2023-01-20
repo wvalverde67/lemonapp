@@ -1,8 +1,8 @@
 import React from 'react'
 import Testimonial from './Testimonial'
-import John from '../assets/person1.png'
-import Mary from '../assets/person2.png'
-import Tom from '../assets/person3.png'
+import John from '../assets/john.png'
+import Mary from '../assets/mary.png'
+import Tom from '../assets/tom.png'
 
 const Testimonials = () => {
   return (
